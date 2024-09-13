@@ -1,0 +1,45 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #d7c5f2;
+}
+/* 1. Uniformar tamaño, grosor y color para los elementos p, ol, ul */
+p, ol, ul {
+    font-size: 16px;        /* Tamaño de letra uniforme */
+    font-weight: normal;    /* Grosor uniforme (normal) */
+    color: #000000;         /* Color de texto uniforme (gris oscuro) */
+    line-height: 1.5;       /* Espaciado entre líneas para mejor legibilidad */
+    margin-bottom: 15px;    /* Espacio uniforme debajo de cada elemento */
+}
+
+/* 2. Uniformar letra, color y tamaño de h1, h2, h3, h4 */
+h1, h2, h3, h4 {
+    font-family: 'Arial', sans-serif; /* Familia de fuente uniforme */
+    color: #046890;                   /* Color uniforme para los títulos (azul) */
+    font-weight: bold;                /* Grosor uniforme (negrita) */
+}
+
+h1 {
+    font-size: 64px;  /* Tamaño para h1 */
+}
+
+h2 {
+    font-size: 28px;  /* Tamaño para h2 */
+}
+
+h3 {
+    font-size: 28px;  /* Tamaño para h3 */
+}
+
+h4 {
+    font-size: 28px;  /* Tamaño para h4 */
+}
+
+/* 3. Hacer más pequeña la imagen */
+.imagen-pequena {
+    max-width: 100%;
+    width: 200px; /* Ancho más pequeño para la imagen */
+    height: auto; /* Mantiene la proporción de la imagen */
+    display: block;
+    margin: 0 auto; /* Centrar la imagen si está en un contenedor */
+}
+
